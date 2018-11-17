@@ -1,0 +1,88 @@
+package javaapplication2;
+
+public class Essay extends GradeActivity{
+   
+    private final int  grammarPossible = 30;
+   private final int spellingPossible = 20;
+   private final int lengthPossible = 20;
+   private final int contentPossible = 30;
+   
+           private int grammarGrade;
+           private int spellingGrade;
+           private int lengthGrade;
+           private int contentGrade;
+           private  int overallGrade;
+           
+           
+public Essay (int grammer, int spellng, int length, int content)
+{
+ set GrammarGrade (grammer);
+ set SpellingGrade (spelling);
+ set LengthGrade (length); 
+ set OverallGrade (content);
+ set OverallGrade();
+ set Score(getOverallGrade);
+    }
+   public int getGrammar () 
+   {
+       return grammarGrade;
+       
+   
+   }
+   public  void setGrammarGarde (int grammarGrade)
+   {
+this.grammarGrade = grammarGrade;       
+   }
+   public int getSpellingGrade()
+   {
+    return spellingGrade;   
+   }
+   public void setSpellingGrade (int spellingGrade)
+   {
+           this.spellingGrade = spellingGrade;
+}
+public int getLengthGrade ()
+{
+return lenghtGrade;
+
+}
+public void setLengthGrade (int lengthGrade)
+{
+ this.lengthGrade = lengthGrade;   
+}
+public  int getContentGrade ()
+{
+    return contentGrade;
+    
+}
+
+public void  setContentGrade (int contentGrade)
+{
+this.contentGrade = contentGrade;
+}
+
+public void getOverallGrade ()
+{
+double grades = grammarGrade + spellingGrade + lengthGrade + contentGrade;
+this. overallGrade = grades;
+}
+public int getGrammarPossible()
+{
+return grammarPossible;
+}
+ public  int getSpellingPossible()
+ {
+return spellingPossible;
+ }
+
+public int getLenghtPossible ()
+{
+    return lengthPossible;
+    
+}
+public int getContentPossible()
+{
+    return Possible;
+}
+
+}
